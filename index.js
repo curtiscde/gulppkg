@@ -1,3 +1,3 @@
-module.exports = (gulp) => {
-  build: () => gulp.start('default')
-};
+module.exports = (gulp) => (
+  gulp.start('default')
+);
