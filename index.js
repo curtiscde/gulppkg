@@ -1,7 +1,1 @@
-const build = () => {
-  console.log('build func');
-}
-
-module.exports = {
-  build,
-};
+module.exports = (gulp) => gulp;
