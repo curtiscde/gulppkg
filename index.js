@@ -1,5 +1,9 @@
 const gulp = require('gulp');
 
-module.exports = (gulp) => (
-  gulp.start('default')
+const build = () => (
+  gulp.series('build')
 );
+
+module.exports = {
+  build,
+};
